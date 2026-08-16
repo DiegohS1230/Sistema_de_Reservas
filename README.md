@@ -1,1 +1,1 @@
-Este proyecto es un sistema de Reservas para recursos tipo Instituciuones en Java
+Este proyecto es un sistema de Reservas para recurses tipo Instituciuones en Java

@@ -10,7 +10,7 @@ abstract class Usuario {
         FUNCIONARIO
     }
     //Contructor
-    public Usuario(String id, Rol rol, String clave) {
+    public Usuario(String id, String clave,Rol rol) {
         this.id = id;
         this.rol = rol;
         this.clave = clave;
