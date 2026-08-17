@@ -33,6 +33,12 @@ public class Categoria {
        return recurses.remove(recurso);
     }
 
+    @Override
+    public String toString() {
+        return "Categoria{" + "id='" + id + '\'' + ", description='" + description + '\'' + ", recurses=" + recurses + '}';
+    }
+
+
 
 
 

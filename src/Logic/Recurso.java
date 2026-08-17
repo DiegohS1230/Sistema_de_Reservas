@@ -6,10 +6,7 @@ public class Recurso {
     private String descripcion;
     private Categoria categoria;
 
-    @Override
-    public String toString() {
-        return "Recurso{" + "id='" + id + '\'' + ", descripcion='" + descripcion + '\'' + ", categoria=" + categoria + '}';
-    }
+
     //Metodos
     public Categoria getCategoria() {return categoria;}
     public void setCategoria(Categoria categoria) {this.categoria = categoria;}
@@ -25,6 +22,10 @@ public class Recurso {
         this.id = id;
         this.categoria = categoria;
         this.descripcion = descripcion;
+    }
+    @Override
+    public String toString() {
+        return "Recurso{" + "id='" + id + '\'' + ", descripcion='" + descripcion + '\'' + ", categoria=" + categoria + '}';
     }
 
 
