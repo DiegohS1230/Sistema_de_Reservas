@@ -1,7 +1,5 @@
+import Logic.Hora;
 
 void main() {
-    IO.println("Hola");
-    
-
 
 }
