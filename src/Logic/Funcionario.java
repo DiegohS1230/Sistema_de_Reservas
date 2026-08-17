@@ -33,4 +33,21 @@ public class Funcionario extends Usuario{
                 ", reservas=" + reservas +
                 '}';
     }
+    //Metodos especificos de la lista
+    public boolean AgregarRecerva(Reserva nuevo){
+        if(nuevo != null && reservas.contains(nuevo)) reservas.add(nuevo);
+
+        return false;
+    }
+    public boolean buscarReserva(String id){
+        for(Reserva c: reservas) if (c.getId().equals(id)) return true;
+        return false;
+    }
+    public boolean eliminarReserva(Reserva vieja){
+        if(vieja != null) reservas.remove(vieja);
+        return false;
+    }
+    
+
+
 }
